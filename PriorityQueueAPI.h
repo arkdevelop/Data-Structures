@@ -1,15 +1,9 @@
-/**
- * @file PriorityQueueAPI.h
- * @author Alexander R-K
- * @date 01/09/2017
- * @brief File containing the function definitions of a priority queue
- */
 #ifndef QUEUEAPI_H
 #define QUEUEAPI_H
 
-//Includes
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include "LinkedListAPI.h"
 
 /**
