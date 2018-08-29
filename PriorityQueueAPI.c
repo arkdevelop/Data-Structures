@@ -1,15 +1,9 @@
-/**
- * @file PriorityQueueAPI.c
- * @author Alexander R-K
- * @date 01/09/2017
- * @brief File containing the functions of a priority queue
- */
-
-//Includes
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include "PriorityQueueAPI.h"
 #include "LinkedListAPI.h"
+#define DEBUG false
 
 Queue* createQueue(char* (*printFunction)(void* toBePrinted), void (*deleteFunction)(void* toBeDeleted), int (*compareFunction)(const void* first, const void* second)) {
     Queue* queue = malloc(sizeof(Queue));
