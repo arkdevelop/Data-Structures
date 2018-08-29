@@ -1,6 +1,8 @@
-#include "BinarySearchTreeAPI.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+#include "BinarySearchTreeAPI.h"
+#define DEBUG false
 
 TreeNode* createTreeNode(TreeDataPtr data) {
     //Create the treeNode, initialize values, then return the dynamically created treeNode
