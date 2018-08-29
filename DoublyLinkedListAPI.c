@@ -1,16 +1,9 @@
-/**
- * @file LinkedListAPI.c
- * @author Alexander R-K
- * @date 01/09/2017
- * @brief File containing the functions of a doubly linked list
- */
-
-//Includes
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 #include <stdbool.h>
-#include "LinkedListAPI.h"
+#include "DoublyLinkedListAPI.h"
+#define DEBUG false
 
 List initializeList(char* (*printFunction)(void* toBePrinted),void (*deleteFunction)(void* toBeDeleted),int (*compareFunction)(const void* first,const void* second)) {
     List tmpList;
