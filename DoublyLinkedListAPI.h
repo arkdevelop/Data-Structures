@@ -1,16 +1,10 @@
-/**
- * @file LinkedListAPI.h
- * @author Alexander R-K
- * @date 01/09/2017
- * @brief File containing the function definitions of a doubly linked list
- */
 #ifndef _LIST_API_
 #define _LIST_API_
 
 //Includes
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 #include <stdbool.h>
 #include <assert.h>
 
@@ -18,7 +12,7 @@
  * Node of a linked list. This list is doubly linked, meaning that it has points to both the node immediately in front 
  * of it, as well as the node immediately behind it.
  **/
-typedef struct listNode{
+typedef struct listNode {
     void* data;
     struct listNode* previous;
     struct listNode* next;
@@ -30,7 +24,7 @@ typedef struct listNode{
  * information about the list (head and tail) as well as the function pointers
  * for working with the abstracted list data.
  **/
-typedef struct listHead{
+typedef struct listHead {
     Node* head;
     Node* tail;
     int length;
@@ -44,7 +38,7 @@ typedef struct listHead{
  * It represents an abstract object for iterating through the list.
  * The list implemntation is hidden from the user
  **/
-typedef struct iter{
+typedef struct iter {
 	Node* current;
 } ListIterator;
 
