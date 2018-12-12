@@ -1,4 +1,4 @@
-# Data-Structures
+# Data-Structures [![Codacy Badge](https://api.codacy.com/project/badge/Grade/edc93870818444b19dcc58b6e279f983)](https://www.codacy.com/app/arkdevelop/Data-Structures?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arkdevelop/Data-Structures&amp;utm_campaign=Badge_Grade)
 
 <h3>BinarySearchTreeAPI.c/BinarySearchTreeAPI.h</h3>
 Binary search tree implementation and its associated header file
